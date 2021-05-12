@@ -13,6 +13,13 @@ const client = new Client({
   restTimeOffset: 0
 });
 
+const spawn = require('child_process').spawn;
+
+const process = spawn('python', ['./main.py']) ;
+process.stdout.on('data', data => {
+console.log(data.toString());
+});
+
 client.login(TOKEN);
 client.commands = new Collection();
 client.prefix = PREFIX;
