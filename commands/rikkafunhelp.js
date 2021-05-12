@@ -1,4 +1,4 @@
-const token = 'ODM3ODU1NzE1MDk1NzQwNDU2.YIyn8Q.5QFO5ACfpaoAGT7FEgnPWOV-eio'; // Bot dev application token.
+const token = 'ODM3ODU1NzE1MDk1NzQwNDU2.YIyn8Q.yZRxwkIe5gL3Ou2Co-DSzowFX-4'; // Bot dev application token.
  
 const prefix = '!'; // Sets prefix for bot commands
  
